@@ -54,8 +54,4 @@ namespace SplitResponsibilities
                 , "Failure - the output was not 'Mixed stuffing of Su Sam Sun bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns.'");
         }
     }
-
-    public class Bun
-    {
-    }
 }
