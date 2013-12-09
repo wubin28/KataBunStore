@@ -14,7 +14,7 @@
             else
             {
                 outputForTest =
-                    "Mixed stuffing of Sam Sum and Pork bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns.";
+                    "Mixed stuffing of Sam Sun and Pork bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns.";
             }
             
         }
