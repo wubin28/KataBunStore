@@ -6,5 +6,10 @@
         {
             
         }
+
+        public string getOutputForTest()
+        {
+            return "";
+        }
     }
 }
