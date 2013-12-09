@@ -6,13 +6,18 @@ namespace SplitResponsibilities
     [TestFixture]
     public class SplitResponsibilitiesTest
     {
-        private SplitResponsibilitiesTestFacade _splitResponsibilitiesTestFacade = new SplitResponsibilitiesTestFacade();
+        private SplitResponsibilitiesTestFacade _splitResponsibilitiesTestFacade = null;
+
+        [SetUp]
+        protected void SetUp()
+        {
+            // Given
+            _splitResponsibilitiesTestFacade = new SplitResponsibilitiesTestFacade();
+        }
 
         [Test]
         public void TestOrderGreenOnionAndPorkBun()
         {
-            // Given
-
             // When
             _splitResponsibilitiesTestFacade.orderBun("Green Onion and Pork");
 
@@ -23,11 +28,8 @@ namespace SplitResponsibilities
         [Test]
         public void TestOrderSamSunAndPorkBun()
         {
-            // Given
-            SplitResponsibilitiesTestFacade splitResponsibilitiesTestFacade = new SplitResponsibilitiesTestFacade();
-
             // When
-            splitResponsibilitiesTestFacade.orderBun("Sam Sun and Pork");
+            _splitResponsibilitiesTestFacade.orderBun("Sam Sun and Pork");
 
             // Then
             Assert.AreEqual("Mixed stuffing of Sam Sun and Pork bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns.", splitResponsibilitiesTestFacade.getOutputForTest(), "Failure - the output was not 'Mixed stuffing of Sam Sun and Pork bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns.'");
@@ -36,11 +38,8 @@ namespace SplitResponsibilities
         [Test]
         public void TestOrderSuSamSunBun()
         {
-            // Given
-            SplitResponsibilitiesTestFacade splitResponsibilitiesTestFacade = new SplitResponsibilitiesTestFacade();
-
             // When
-            splitResponsibilitiesTestFacade.orderBun("Su Sam Sun");
+            _splitResponsibilitiesTestFacade.orderBun("Su Sam Sun");
 
             // Then
             Assert.AreEqual("Mixed stuffing of Su Sam Sun bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns.", splitResponsibilitiesTestFacade.getOutputForTest(), "Failure - the output was not 'Mixed stuffing of Su Sam Sun bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns.'");
