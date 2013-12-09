@@ -8,5 +8,10 @@
         {
             this.outputForTest = outputForTest;
         }
+
+        public string getOutputForTest()
+        {
+            return this.outputForTest;
+        }
     }
 }
