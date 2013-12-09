@@ -19,30 +19,39 @@ namespace SplitResponsibilities
         public void TestOrderGreenOnionAndPorkBun()
         {
             // When
-            _splitResponsibilitiesTestFacade.orderBun("Green Onion and Pork");
+            Bun bun = _splitResponsibilitiesTestFacade.orderBun("Green Onion and Pork");
 
             // Then
-            Assert.AreEqual("Mixed stuffing of Green Onion and Pork bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns.", _splitResponsibilitiesTestFacade.getOutputForTest(), "Failure - the output was not 'Mixed stuffing of Green Onion and Pork bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns.'");
+            Assert.AreEqual(
+                "Mixed stuffing of Green Onion and Pork bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns."
+                , bun.getOutputForTest()
+                , "Failure - the output was not 'Mixed stuffing of Green Onion and Pork bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns.'");
         }
 
         [Test]
         public void TestOrderSamSunAndPorkBun()
         {
             // When
-            _splitResponsibilitiesTestFacade.orderBun("Sam Sun and Pork");
+            Bun bun = _splitResponsibilitiesTestFacade.orderBun("Sam Sun and Pork");
 
             // Then
-            Assert.AreEqual("Mixed stuffing of Sam Sun and Pork bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns.", _splitResponsibilitiesTestFacade.getOutputForTest(), "Failure - the output was not 'Mixed stuffing of Sam Sun and Pork bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns.'");
+            Assert.AreEqual(
+                "Mixed stuffing of Sam Sun and Pork bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns."
+                , bun.getOutputForTest()
+                , "Failure - the output was not 'Mixed stuffing of Sam Sun and Pork bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns.'");
         }
 
         [Test]
         public void TestOrderSuSamSunBun()
         {
             // When
-            _splitResponsibilitiesTestFacade.orderBun("Su Sam Sun");
+            Bun bun = _splitResponsibilitiesTestFacade.orderBun("Su Sam Sun");
 
             // Then
-            Assert.AreEqual("Mixed stuffing of Su Sam Sun bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns.", _splitResponsibilitiesTestFacade.getOutputForTest(), "Failure - the output was not 'Mixed stuffing of Su Sam Sun bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns.'");
+            Assert.AreEqual(
+                "Mixed stuffing of Su Sam Sun bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns."
+                , bun.getOutputForTest()
+                , "Failure - the output was not 'Mixed stuffing of Su Sam Sun bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns.'");
         }
     }
 }
