@@ -4,7 +4,7 @@
     {
         private string outputForTest = "";
 
-        public void orderBun(string bunName)
+        public Bun orderBun(string bunName)
         {
             if (bunName == "Green Onion and Pork")
             {
