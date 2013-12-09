@@ -32,7 +32,7 @@ namespace SplitResponsibilities
             _splitResponsibilitiesTestFacade.orderBun("Sam Sun and Pork");
 
             // Then
-            Assert.AreEqual("Mixed stuffing of Sam Sun and Pork bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns.", splitResponsibilitiesTestFacade.getOutputForTest(), "Failure - the output was not 'Mixed stuffing of Sam Sun and Pork bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns.'");
+            Assert.AreEqual("Mixed stuffing of Sam Sun and Pork bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns.", _splitResponsibilitiesTestFacade.getOutputForTest(), "Failure - the output was not 'Mixed stuffing of Sam Sun and Pork bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns.'");
         }
 
         [Test]
@@ -42,7 +42,7 @@ namespace SplitResponsibilities
             _splitResponsibilitiesTestFacade.orderBun("Su Sam Sun");
 
             // Then
-            Assert.AreEqual("Mixed stuffing of Su Sam Sun bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns.", splitResponsibilitiesTestFacade.getOutputForTest(), "Failure - the output was not 'Mixed stuffing of Su Sam Sun bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns.'");
+            Assert.AreEqual("Mixed stuffing of Su Sam Sun bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns.", _splitResponsibilitiesTestFacade.getOutputForTest(), "Failure - the output was not 'Mixed stuffing of Su Sam Sun bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns.'");
         }
     }
 }
