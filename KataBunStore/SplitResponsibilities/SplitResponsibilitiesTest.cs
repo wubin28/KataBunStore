@@ -4,7 +4,7 @@ using System;
 namespace SplitResponsibilities
 {
     [TestFixture]
-    public class UnitTest1
+    public class SplitResponsibilitiesTest
     {
         [Test]
         public void TestMethod1()
