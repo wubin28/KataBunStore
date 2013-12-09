@@ -20,9 +20,5 @@
             
         }
 
-        public string getOutputForTest()
-        {
-            return outputForTest;
-        }
     }
 }
