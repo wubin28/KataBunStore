@@ -9,6 +9,10 @@
             this.outputForTest = outputForTest;
         }
 
+        protected Bun()
+        {
+        }
+
         public string getOutputForTest()
         {
             return this.outputForTest;
