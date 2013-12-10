@@ -4,18 +4,32 @@
     {
         public Bun makeBun(string bunName)
         {
+            Bun bun = null;
             if (bunName == "Green Onion and Pork")
             {
-                return new GreenOnionAndPorkBun("Mixed stuffing of Green Onion and Pork bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns.");
+                // "Mixed stuffing of Green Onion and Pork bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns."
+                bun = new GreenOnionAndPorkBun();
+                mixStuffing(bun);
+                kneadIntoDough(bun);
+                wrapBun(bun);
             }
             else if (bunName == "Sam Sun and Pork")
             {
-                return new SamSunAndPorkBun("Mixed stuffing of Sam Sun and Pork bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns.");
+                // "Mixed stuffing of Sam Sun and Pork bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns."
+                bun = new SamSunAndPorkBun();
+                mixStuffing(bun);
+                kneadIntoDough(bun);
+                wrapBun(bun);
             }
             else
             {
-                return new SuSamSunBun("Mixed stuffing of Su Sam Sun bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns.");
+                // "Mixed stuffing of Su Sam Sun bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns."
+                bun = new SuSamSunBun();
+                mixStuffing(bun);
+                kneadIntoDough(bun);
+                wrapBun(bun);
             }
+            return bun;
         }
     }
 }
