@@ -7,7 +7,7 @@
             Bun bun = null;
             if (bunName == "Green Onion and Pork")
             {
-                // " Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns."
+                // " Wrapped buns. Steamed buns. Dished out buns."
                 bun = new GreenOnionAndPorkBun();
                 mixStuffing(bun);
                 kneadIntoDough(bun);
@@ -30,6 +30,11 @@
                 wrapBun(bun);
             }
             return bun;
+        }
+
+        private void kneadIntoDough(Bun bun)
+        {
+            bun.appendStepDesc(" Kneaded into dough.");
         }
 
         private void mixStuffing(Bun bun)
