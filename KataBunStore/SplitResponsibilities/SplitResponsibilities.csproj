@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="Bun.cs" />
     <Compile Include="BunStore.cs" />
+    <Compile Include="Cook.cs" />
     <Compile Include="SplitResponsibilitiesTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
