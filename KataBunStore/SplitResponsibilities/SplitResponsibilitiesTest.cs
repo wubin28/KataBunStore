@@ -6,20 +6,20 @@ namespace SplitResponsibilities
     [TestFixture]
     public class SplitResponsibilitiesTest
     {
-        private SplitResponsibilitiesTestFacade _splitResponsibilitiesTestFacade = null;
+        private BunStore bunStore = null;
 
         [SetUp]
         protected void SetUp()
         {
             // Given
-            _splitResponsibilitiesTestFacade = new SplitResponsibilitiesTestFacade();
+            bunStore = new BunStore();
         }
 
         [Test]
         public void TestOrderGreenOnionAndPorkBun()
         {
             // When
-            Bun bun = _splitResponsibilitiesTestFacade.orderBun("Green Onion and Pork");
+            Bun bun = bunStore.orderBun("Green Onion and Pork");
 
             // Then
             Assert.AreEqual(
@@ -32,7 +32,7 @@ namespace SplitResponsibilities
         public void TestOrderSamSunAndPorkBun()
         {
             // When
-            Bun bun = _splitResponsibilitiesTestFacade.orderBun("Sam Sun and Pork");
+            Bun bun = bunStore.orderBun("Sam Sun and Pork");
 
             // Then
             Assert.AreEqual(
@@ -45,7 +45,7 @@ namespace SplitResponsibilities
         public void TestOrderSuSamSunBun()
         {
             // When
-            Bun bun = _splitResponsibilitiesTestFacade.orderBun("Su Sam Sun");
+            Bun bun = bunStore.orderBun("Su Sam Sun");
 
             // Then
             Assert.AreEqual(
