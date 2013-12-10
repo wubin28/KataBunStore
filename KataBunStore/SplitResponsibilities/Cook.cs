@@ -7,7 +7,6 @@
             Bun bun = null;
             if (bunName == "Green Onion and Pork")
             {
-                // " Steamed buns. Dished out buns."
                 bun = new GreenOnionAndPorkBun();
                 mixStuffing(bun, bunName);
                 kneadIntoDough(bun);

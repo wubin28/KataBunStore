@@ -12,7 +12,15 @@
 
         public Bun dishOut(string bunName)
         {
-            return cook.makeBun(bunName);
+            Bun bun = cook.makeBun(bunName);
+            steam(bun);
+            bun.appendStepDesc(" Dished out buns.");
+            return bun;
+        }
+
+        private void steam(Bun bun)
+        {
+            bun.appendStepDesc(" Steamed buns.");
         }
     }
 }
