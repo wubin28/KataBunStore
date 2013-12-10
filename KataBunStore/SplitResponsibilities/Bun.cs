@@ -3,6 +3,7 @@
     public class Bun
     {
         private string outputForTest;
+        private string stepDesc = "";
 
         public Bun(string outputForTest)
         {
@@ -16,6 +17,11 @@
         public string getOutputForTest()
         {
             return this.outputForTest;
+        }
+
+        public void appendStepDesc(string stepDesc)
+        {
+            this.stepDesc += stepDesc;
         }
     }
 }
