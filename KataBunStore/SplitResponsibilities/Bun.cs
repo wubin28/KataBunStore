@@ -14,11 +14,6 @@
         {
         }
 
-        public string getOutputForTest()
-        {
-            return this.outputForTest;
-        }
-
         public void appendStepDesc(string stepDesc)
         {
             this.stepDesc += stepDesc;
