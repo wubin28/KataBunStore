@@ -24,7 +24,7 @@ namespace SplitResponsibilities
             // Then
             Assert.AreEqual(
                 "Mixed stuffing of Green Onion and Pork bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns."
-                , bun.getOutputForTest()
+                , bun.getStepDesc()
                 , "Failure - the output was not 'Mixed stuffing of Green Onion and Pork bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns.'");
         }
 
@@ -37,7 +37,7 @@ namespace SplitResponsibilities
             // Then
             Assert.AreEqual(
                 "Mixed stuffing of Sam Sun and Pork bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns."
-                , bun.getOutputForTest()
+                , bun.getStepDesc()
                 , "Failure - the output was not 'Mixed stuffing of Sam Sun and Pork bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns.'");
         }
 
@@ -50,7 +50,7 @@ namespace SplitResponsibilities
             // Then
             Assert.AreEqual(
                 "Mixed stuffing of Su Sam Sun bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns."
-                , bun.getOutputForTest()
+                , bun.getStepDesc()
                 , "Failure - the output was not 'Mixed stuffing of Su Sam Sun bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns.'");
         }
     }
