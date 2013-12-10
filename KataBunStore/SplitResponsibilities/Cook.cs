@@ -9,7 +9,7 @@
             {
                 // " Wrapped buns. Steamed buns. Dished out buns."
                 bun = new GreenOnionAndPorkBun();
-                mixStuffing(bun);
+                mixStuffing(bun, bunName);
                 kneadIntoDough(bun);
                 wrapBun(bun);
             }
@@ -17,7 +17,7 @@
             {
                 // "Mixed stuffing of Sam Sun and Pork bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns."
                 bun = new SamSunAndPorkBun();
-                mixStuffing(bun);
+                mixStuffing(bun, bunName);
                 kneadIntoDough(bun);
                 wrapBun(bun);
             }
@@ -25,7 +25,7 @@
             {
                 // "Mixed stuffing of Su Sam Sun bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns."
                 bun = new SuSamSunBun();
-                mixStuffing(bun);
+                mixStuffing(bun, bunName);
                 kneadIntoDough(bun);
                 wrapBun(bun);
             }
@@ -37,9 +37,9 @@
             bun.appendStepDesc(" Kneaded into dough.");
         }
 
-        private void mixStuffing(Bun bun)
+        private void mixStuffing(Bun bun, string bunName)
         {
-            bun.appendStepDesc("Mixed stuffing of Green Onion and Pork bun.");
+            bun.appendStepDesc("Mixed stuffing of " + bunName + " bun.");
         }
     }
 }
