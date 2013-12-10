@@ -53,5 +53,18 @@ namespace SplitResponsibilities
                 , bun.getStepDesc()
                 , "Failure - the output was not 'Mixed stuffing of Su Sam Sun bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns.'");
         }
+
+        [Test]
+        public void TestOrderShrimpBun()
+        {
+            // When
+            Bun bun = bunStore.orderBun("Shrimp");
+
+            // Then
+            Assert.AreEqual(
+                "Mixed stuffing of Shrimp bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns."
+                , bun.getStepDesc()
+                , "Failure - the output was not 'Mixed stuffing of Shrimp bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns.'");
+        }
     }
 }
