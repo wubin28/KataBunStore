@@ -1,4 +1,6 @@
-﻿namespace SplitResponsibilities
+﻿using System.IO;
+
+namespace SplitResponsibilities
 {
     public class Cook
     {
@@ -20,13 +22,17 @@
                 kneadIntoDough(bun);
                 wrapBun(bun);
             }
-            else
+            else if (bunName == "Su Sam Sun")
             {
                 // "Mixed stuffing of Su Sam Sun bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns."
                 bun = new SuSamSunBun();
                 mixStuffing(bun, bunName);
                 kneadIntoDough(bun);
                 wrapBun(bun);
+            }
+            else
+            {
+                throw new InvalidDataException("Invalid bun name: " + bunName);
             }
             return bun;
         }
