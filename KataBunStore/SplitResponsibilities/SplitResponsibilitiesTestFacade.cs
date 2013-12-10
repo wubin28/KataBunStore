@@ -5,6 +5,8 @@
 
         public Bun orderBun(string bunName)
         {
+            BunStore bunStore = new BunStore();
+            return bunStore.orderBun(bunName);
             if (bunName == "Green Onion and Pork")
             {
                 return new Bun("Mixed stuffing of Green Onion and Pork bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns.");
