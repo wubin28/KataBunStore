@@ -12,7 +12,7 @@
 
         public Bun dishOut(string bunName)
         {
-            
+            return cook.makeBun(bunName);
         }
     }
 }
