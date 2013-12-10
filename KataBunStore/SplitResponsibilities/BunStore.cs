@@ -4,6 +4,10 @@
     {
         public Bun orderBun(string bunName)
         {
+            Cook cook = new Cook();
+            Waiter waiter = new Waiter(cook);
+            return waiter.dishOut(bunName);
+
             if (bunName == "Green Onion and Pork")
             {
                 return new Bun("Mixed stuffing of Green Onion and Pork bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns.");
