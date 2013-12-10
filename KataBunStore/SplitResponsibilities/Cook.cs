@@ -16,7 +16,6 @@ namespace SplitResponsibilities
             }
             else if (bunName == "Sam Sun and Pork")
             {
-                // "Mixed stuffing of Sam Sun and Pork bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns."
                 bun = new SamSunAndPorkBun();
                 mixStuffing(bun, bunName);
                 kneadIntoDough(bun);
@@ -24,8 +23,14 @@ namespace SplitResponsibilities
             }
             else if (bunName == "Su Sam Sun")
             {
-                // "Mixed stuffing of Su Sam Sun bun. Kneaded into dough. Wrapped buns. Steamed buns. Dished out buns."
                 bun = new SuSamSunBun();
+                mixStuffing(bun, bunName);
+                kneadIntoDough(bun);
+                wrapBun(bun);
+            }
+            else if (bunName == "Shrimp")
+            {
+                bun = new ShrimpBun();
                 mixStuffing(bun, bunName);
                 kneadIntoDough(bun);
                 wrapBun(bun);
