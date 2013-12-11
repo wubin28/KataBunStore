@@ -33,7 +33,7 @@ namespace AddTwoNewFlavors
 
             // Then
             Assert.AreEqual("Mixed stuffing of Pork bun in GBL style. Kneaded into dough in GBL style. Wrapped buns in GBL style. Steamed buns. Dished out buns."
-                , bun.getStepDesc("GblStylePork")
+                , bun.getStepDesc()
                 , "Failure - the output was not 'Mixed stuffing of Pork bun in GBL style. Kneaded into dough in GBL style. Wrapped buns in GBL style. Steamed buns. Dished out buns.'");
         }
     }
