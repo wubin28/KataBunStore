@@ -4,6 +4,7 @@
     {
         public Bun orderQfStyleBun(string bunName)
         {
+            Waiter waiter = new Waiter(qfStyleCook);
             return waiter.dishOut(bunName);
         }
 
