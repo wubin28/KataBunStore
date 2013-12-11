@@ -57,6 +57,7 @@
     <Compile Include="GblStyleCook.cs" />
     <Compile Include="GblStylePorkBun.cs" />
     <Compile Include="HbzStyleCook.cs" />
+    <Compile Include="HbzStylePorkBun.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QfStyleCook.cs" />
     <Compile Include="QfStyleGreenOnionAndPorkBun.cs" />
