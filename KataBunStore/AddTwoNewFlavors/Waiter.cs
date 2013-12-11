@@ -9,7 +9,7 @@
             this.qfStyleCook = qfStyleCook;
         }
 
-        public Bun dishOut(string bunName)
+        public Bun DishOut(string bunName)
         {
             Bun bun = qfStyleCook.MakeBun(bunName);
             steamBun(bun);
