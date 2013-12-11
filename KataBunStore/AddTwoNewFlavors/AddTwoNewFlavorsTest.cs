@@ -10,6 +10,9 @@ namespace AddTwoNewFlavors
         [Test]
         public void TestOrderQfStyleGreenOnionAndPorkBun()
         {
+            // Given
+            BunStore bunStore = new BunStore();
+
             // When
             bun bun = bunStore.orderQfStyleBun("Green Onion and Pork");
 
