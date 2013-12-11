@@ -1,6 +1,8 @@
 ﻿namespace GetRawMaterialFromFactories
 {
-    public class Cook
+    public abstract class Cook
     {
+        protected abstract Bun CreateBun(string bunName);
+
     }
 }
