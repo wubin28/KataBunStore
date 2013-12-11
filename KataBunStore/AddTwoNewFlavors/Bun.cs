@@ -22,5 +22,10 @@
         {
             this.stepDesc += stepDesc;
         }
+
+        public string getStepDesc()
+        {
+            return this.stepDesc;
+        }
     }
 }
