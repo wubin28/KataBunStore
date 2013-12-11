@@ -6,5 +6,10 @@
         {
             return new QfStyleGreenOnionAndPorkBun();
         }
+
+        public Bun OrderGblStyleBun(string bunName)
+        {
+            return new GblStylePorkBun();
+        }
     }
 }
