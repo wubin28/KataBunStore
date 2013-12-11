@@ -57,6 +57,7 @@
     <Compile Include="GblStylePorkBun.cs" />
     <Compile Include="GetRawMaterialFromFactoriesTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QfIngredientFactory.cs" />
     <Compile Include="QfStyleCook.cs" />
     <Compile Include="QfStyleGreenOnionAndPorkBun.cs" />
   </ItemGroup>
