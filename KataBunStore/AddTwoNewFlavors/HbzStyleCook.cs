@@ -22,7 +22,7 @@
 
         protected override void MixStuffing(Bun bun, string bunName)
         {
-            throw new System.NotImplementedException();
+            bun.appendStepDesc("Mixed stuffing of " + bunName + " bun in HBZ style.");
         }
     }
 }
