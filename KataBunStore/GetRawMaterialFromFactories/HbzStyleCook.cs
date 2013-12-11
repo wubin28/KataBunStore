@@ -1,10 +1,19 @@
-﻿namespace GetRawMaterialFromFactories
+﻿using System.IO;
+
+namespace GetRawMaterialFromFactories
 {
     public class HbzStyleCook : Cook
     {
         protected override Bun CreateBun(string bunName)
         {
-            throw new System.NotImplementedException();
+            if (bunName == "Pork")
+            {
+                return new HbzStylePorkBun(hbzIngredientFactory);
+            }
+            else
+            {
+                throw new InvalidDataException("Invalid bun name: " + bunName);
+            }
         }
 
         protected override void PrepareStuffing(Bun bun)
