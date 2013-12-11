@@ -25,6 +25,9 @@ namespace AddTwoNewFlavors
         [Test]
         public void TestOrderGblStylePorkBun()
         {
+            // When
+            Bun bun = bunStore.orderGblStyleBun("Pork");
+
             // Then
             Assert.AreEqual("Mixed stuffing of Pork bun in GBL style. Kneaded into dough in GBL style. Wrapped buns in GBL style. Steamed buns. Dished out buns."
                 , bun.getStepDesc()
