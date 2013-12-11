@@ -18,6 +18,7 @@
 
         public Bun OrderHbzStyleBun(string bunName)
         {
+            Waiter waiter = new Waiter(hbzStyleCook);
             return waiter.DishOut(bunName);
         }
     }
