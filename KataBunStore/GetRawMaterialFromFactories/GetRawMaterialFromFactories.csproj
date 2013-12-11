@@ -63,6 +63,7 @@
     <Compile Include="GetRawMaterialFromFactoriesTest.cs" />
     <Compile Include="HbzIngredientFactory.cs" />
     <Compile Include="HbzStyleCook.cs" />
+    <Compile Include="HbzStylePorkStuffing.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QfIngredientFactory.cs" />
     <Compile Include="QfStyleCook.cs" />
