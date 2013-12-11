@@ -10,6 +10,9 @@ namespace GetRawMaterialFromFactories
         [Test]
         public void TestOrderQfStyleGreenOnionAndPorkBun()
         {
+            // Given
+            BunStore bunStore = new BunStore();
+
             // When
             Bun bun = bunStore.OrderQfStyleBun("Green Onion and Pork");
 
