@@ -1,6 +1,7 @@
 ﻿namespace GetRawMaterialFromFactories
 {
-    public class BunIngredientFactory
+    public abstract class BunIngredientFactory
     {
+
     }
 }
