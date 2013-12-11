@@ -8,11 +8,11 @@
         {
             this.bunIngredientFactory = bunIngredientFactory;
             
-            Stuffing = this.bunIngredientFactory.createStuffing();
-            stepDesc += "Got mixed stuffing of Green Onion and Pork bun from QF Ingredient Factory.";
+            Stuffing = this.bunIngredientFactory.CreateStuffing();
+            stepDesc += Stuffing.GetDesc();
             
-            Flour = this.bunIngredientFactory.createFlour();
-            stepDesc += " Got flour from QF Ingredient Factory.";
+            Flour = this.bunIngredientFactory.CreateFlour();
+            stepDesc += Flour.GetDesc();
         }
 
         public override string GetStepDesc()
