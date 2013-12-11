@@ -11,7 +11,8 @@
 
         public Bun orderGblStyleBun(string bunName)
         {
-            return new Bun();
+
+            return waiter.DishOut(bunName);
         }
     }
 }
