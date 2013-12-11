@@ -2,16 +2,16 @@
 {
     public class Waiter
     {
-        private Cook qfStyleCook;
+        private Cook cook;
 
-        public Waiter(Cook qfStyleCook)
+        public Waiter(Cook cook)
         {
-            this.qfStyleCook = qfStyleCook;
+            this.cook = cook;
         }
 
         public Bun DishOut(string bunName)
         {
-            Bun bun = qfStyleCook.MakeBun(bunName);
+            Bun bun = cook.MakeBun(bunName);
             steamBun(bun);
             bun.appendStepDesc(" Dished out buns.");
             return bun;
