@@ -1,4 +1,6 @@
-﻿namespace AddTwoNewFlavors
+﻿using System.IO;
+
+namespace AddTwoNewFlavors
 {
     public class HbzStyleCook : Cook
     {
@@ -7,6 +9,10 @@
             if (bunName == "Pork")
             {
                 return new HbzStylePorkBun();
+            }
+            else
+            {
+                throw new InvalidDataException("Invalid bun name: " + bunName);
             }
         }
 
