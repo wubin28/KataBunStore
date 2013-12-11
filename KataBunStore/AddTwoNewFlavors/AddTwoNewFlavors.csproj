@@ -53,6 +53,7 @@
     <Compile Include="AddTwoNewFlavorsTest.cs" />
     <Compile Include="Bun.cs" />
     <Compile Include="BunStore.cs" />
+    <Compile Include="Cook.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Choose>
