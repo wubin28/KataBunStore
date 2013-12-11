@@ -18,7 +18,7 @@
 
         public Bun OrderHbzStyleBun(string bunName)
         {
-            throw new System.NotImplementedException();
+            return waiter.DishOut(bunName);
         }
     }
 }
