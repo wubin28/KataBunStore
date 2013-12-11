@@ -18,7 +18,7 @@ namespace AddTwoNewFlavors
 
         protected override void WrapBun(Bun bun)
         {
-            throw new System.NotImplementedException();
+            bun.appendStepDesc(" Wrapped buns in GBL style.");
         }
 
         protected override void KneadIntoDough(Bun bun)
