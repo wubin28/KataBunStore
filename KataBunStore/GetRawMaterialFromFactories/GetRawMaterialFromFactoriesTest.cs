@@ -40,6 +40,9 @@ namespace GetRawMaterialFromFactories
         [Test]
         public void TestOrderHbzStylePorkBun()
         {
+            // Given
+            BunStore bunStore = new BunStore();
+
             // When
             Bun bun = bunStore.OrderHbzStyleBun("Pork");
 
