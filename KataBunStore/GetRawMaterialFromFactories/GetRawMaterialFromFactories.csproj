@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="Bun.cs" />
     <Compile Include="BunStore.cs" />
+    <Compile Include="Cook.cs" />
     <Compile Include="GblStylePorkBun.cs" />
     <Compile Include="GetRawMaterialFromFactoriesTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
