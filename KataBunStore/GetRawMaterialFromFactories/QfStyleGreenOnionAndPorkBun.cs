@@ -2,11 +2,17 @@
 {
     public class QfStyleGreenOnionAndPorkBun : Bun
     {
-        private BunIngredientFactory _bunIngredientFactory;
+        private BunIngredientFactory bunIngredientFactory;
 
         public QfStyleGreenOnionAndPorkBun(BunIngredientFactory bunIngredientFactory)
         {
-            this._bunIngredientFactory = bunIngredientFactory;
+            this.bunIngredientFactory = bunIngredientFactory;
+            
+            Stuffing = this.bunIngredientFactory.createStuffing();
+            stepDesc += "Got mixed stuffing of Green Onion and Pork bun from QF Ingredient Factory.";
+            
+            Flour = this.bunIngredientFactory.createFlour();
+            stepDesc += " Got flour from QF Ingredient Factory.";
         }
 
         public override string GetStepDesc()
