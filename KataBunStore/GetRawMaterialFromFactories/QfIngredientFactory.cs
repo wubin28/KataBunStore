@@ -9,7 +9,7 @@
 
         public override Flour CreateFlour()
         {
-            throw new System.NotImplementedException();
+            return new QfStyleFlour();
         }
     }
 }
