@@ -24,7 +24,7 @@ namespace GetRawMaterialFromFactories
 
         protected override void KneadIntoDough(Bun bun)
         {
-            throw new System.NotImplementedException();
+            bun.AppendStepDesc(" Kneaded into dough in QF style.");
         }
 
         protected override void WrapBun(Bun bun)
