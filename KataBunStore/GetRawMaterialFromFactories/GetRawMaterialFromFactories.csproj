@@ -57,6 +57,7 @@
     <Compile Include="Flour.cs" />
     <Compile Include="GblIngredientFactory.cs" />
     <Compile Include="GblStyleCook.cs" />
+    <Compile Include="GblStyleFlour.cs" />
     <Compile Include="GblStylePorkBun.cs" />
     <Compile Include="GblStylePorkStuffing.cs" />
     <Compile Include="GetRawMaterialFromFactoriesTest.cs" />
