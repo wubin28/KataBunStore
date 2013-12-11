@@ -19,7 +19,7 @@ namespace GetRawMaterialFromFactories
 
         protected override void PrepareStuffing(Bun bun)
         {
-            bun.appendStepDesc(" Prepared stuffing.");
+            bun.AppendStepDesc(" Prepared stuffing.");
         }
 
         protected override void KneadIntoDough(Bun bun)
