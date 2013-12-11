@@ -12,5 +12,11 @@
             WrapBun(bun);
             return bun;
         }
+
+        protected abstract void WrapBun(Bun bun);
+
+        protected abstract void KneadIntoDough(Bun bun);
+
+        protected abstract void MixStuffing(Bun bun, string bunName);
     }
 }
