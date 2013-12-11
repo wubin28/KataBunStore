@@ -6,5 +6,10 @@
         {
             return new Bun();
         }
+
+        public Bun orderGblStyleBun(string bunName)
+        {
+            return new Bun();
+        }
     }
 }
