@@ -40,6 +40,9 @@ namespace GetRawMaterialFromFactories
         [Test]
         public void TestOrderHbzStylePorkBun()
         {
+            // When
+            Bun bun = bunStore.OrderHbzStyleBun("Pork");
+
             // Then
             Assert.AreEqual("Got mixed stuffing of Pork bun from HBZ Ingredient Factory. Got flour from HBZ Ingredient Factory. Prepared stuffing. Kneaded into dough in HBZ style. Wrapped buns in HBZ style. Steamed buns. Dished out buns."
                 , bun.GetStepDesc()
