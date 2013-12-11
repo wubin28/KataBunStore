@@ -13,6 +13,7 @@
         {
             Bun bun = qfStyleCook.MakeBun(bunName);
             steamBun(bun);
+            bun.appendStepDesc(" Dished out buns.");
         }
     }
 }
