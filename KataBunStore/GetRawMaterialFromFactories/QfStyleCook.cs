@@ -29,7 +29,7 @@ namespace GetRawMaterialFromFactories
 
         protected override void WrapBun(Bun bun)
         {
-            throw new System.NotImplementedException();
+            bun.AppendStepDesc(" Wrapped buns in QF style.");
         }
     }
 }
