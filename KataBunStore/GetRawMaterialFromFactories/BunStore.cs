@@ -6,7 +6,7 @@
         {
             Cook qfStyleCook = new QfStyleCook();
             Waiter waiter = new Waiter(qfStyleCook);
-            return waiter.dishOut(bunName);
+            return waiter.DishOut(bunName);
         }
 
         public Bun OrderGblStyleBun(string bunName)

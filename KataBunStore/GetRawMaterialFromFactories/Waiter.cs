@@ -8,5 +8,10 @@
         {
             this.cook = cook;
         }
+
+        public Bun DishOut(string bunName)
+        {
+            return this.cook.MakeBun(bunName);
+        }
     }
 }
