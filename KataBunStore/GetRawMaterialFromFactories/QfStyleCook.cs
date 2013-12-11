@@ -17,9 +17,9 @@ namespace GetRawMaterialFromFactories
             }
         }
 
-        protected override void PrepareStuffing(Bun bun, string bunName)
+        protected override void PrepareStuffing(Bun bun)
         {
-            throw new System.NotImplementedException();
+            bun.appendStepDesc(" Prepared stuffing.");
         }
 
         protected override void KneadIntoDough(Bun bun)
