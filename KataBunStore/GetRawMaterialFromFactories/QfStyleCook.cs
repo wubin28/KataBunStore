@@ -6,6 +6,7 @@ namespace GetRawMaterialFromFactories
     {
         protected override Bun CreateBun(string bunName)
         {
+            BunIngredientFactory qfIngredientFactory = new QfIngredientFactory();
             if (bunName == "Green Onion and Pork")
             {
                 return new QfStyleGreenOnionAndPorkBun(qfIngredientFactory);
