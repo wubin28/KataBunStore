@@ -18,7 +18,7 @@ namespace AddTwoNewFlavors
 
             // Then
             Assert.AreEqual("Mixed stuffing of Green Onion and Pork bun in QF style. Kneaded into dough in QF style. Wrapped buns in QF style. Steamed buns. Dished out buns."
-                , bun.getStepDesc()
+                , bun.getStepDesc("QfStyleGreenOnionAndPork")
                 , "Failure - the output was not 'Mixed stuffing of Green Onion and Pork bun in QF style. Kneaded into dough in QF style. Wrapped buns in QF style. Steamed buns. Dished out buns.'");
         }
 
@@ -33,7 +33,7 @@ namespace AddTwoNewFlavors
 
             // Then
             Assert.AreEqual("Mixed stuffing of Pork bun in GBL style. Kneaded into dough in GBL style. Wrapped buns in GBL style. Steamed buns. Dished out buns."
-                , bun.getStepDesc()
+                , bun.getStepDesc("GblStylePork")
                 , "Failure - the output was not 'Mixed stuffing of Pork bun in GBL style. Kneaded into dough in GBL style. Wrapped buns in GBL style. Steamed buns. Dished out buns.'");
         }
     }
