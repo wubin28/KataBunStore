@@ -1,6 +1,6 @@
 ﻿namespace GetRawMaterialFromFactories
 {
-    public class Stuffing
+    public abstract class Stuffing
     {
     }
 }
