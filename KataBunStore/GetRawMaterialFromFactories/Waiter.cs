@@ -11,7 +11,15 @@
 
         public Bun DishOut(string bunName)
         {
-            return this.cook.MakeBun(bunName);
+            Bun bun = this.cook.MakeBun(bunName);
+            steamBun(bun);
+            bun.AppendStepDesc(" Dished out buns.");
+            return bun;
+        }
+
+        private void steamBun(Bun bun)
+        {
+            bun.AppendStepDesc(" Steamed buns.");
         }
     }
 }
