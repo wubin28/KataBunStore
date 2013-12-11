@@ -2,5 +2,8 @@
 {
     public abstract class Cook
     {
+        protected abstract Bun createBun(string bunName);
+
+
     }
 }
