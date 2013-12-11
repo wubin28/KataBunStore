@@ -40,6 +40,9 @@ namespace AddTwoNewFlavors
         [Test]
         public void TestOrderHbzStylePorkBun()
         {
+            // When
+            Bun bun = bunStore.orderHbzStyleBun("Pork");
+
             // Then
             Assert.AreEqual("Mixed stuffing of Pork bun in HBZ style. Kneaded into dough in HBZ style. Wrapped buns in HBZ style. Steamed buns. Dished out buns."
                 , bun.getStepDesc()
