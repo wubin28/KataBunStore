@@ -15,5 +15,10 @@
             Waiter waiter = new Waiter(gblStyleCook);
             return waiter.DishOut(bunName);
         }
+
+        public Bun orderHbzStyleBun(string bunName)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
