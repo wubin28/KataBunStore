@@ -11,8 +11,8 @@
 
         public Bun dishOut(string bunName)
         {
-            qfStyleCook.MakeBun(bunName);
-
+            Bun bun = qfStyleCook.MakeBun(bunName);
+            steamBun(bun);
         }
     }
 }
