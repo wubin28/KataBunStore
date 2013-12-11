@@ -28,7 +28,10 @@ namespace AddTwoNewFlavors
 
         protected override void MixStuffing(Bun bun, string bunName)
         {
-            throw new System.NotImplementedException();
+            if (bunName == "Green Onion and Pork")
+            {
+                bun.appendStepDesc("Mixed stuffing of " + bunName + " bun in QF style.");
+            }
         }
     }
 }
