@@ -4,7 +4,10 @@
     {
         protected override Bun CreateBun(string bunName)
         {
-            throw new System.NotImplementedException();
+            if (bunName == "Pork")
+            {
+                return new HbzStylePorkBun();
+            }
         }
 
         protected override void WrapBun(Bun bun)
