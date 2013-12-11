@@ -4,7 +4,7 @@
     {
         public Bun orderQfStyleBun(string bunName)
         {
-            return new Bun();
+            return waiter.dishOut(bunName);
         }
 
         public Bun orderGblStyleBun(string bunName)
