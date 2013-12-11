@@ -15,5 +15,10 @@
             steamBun(bun);
             bun.appendStepDesc(" Dished out buns.");
         }
+
+        private void steamBun(Bun bun)
+        {
+            bun.appendStepDesc(" Steamed buns.");
+        }
     }
 }
