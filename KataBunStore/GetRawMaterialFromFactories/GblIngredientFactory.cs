@@ -4,12 +4,12 @@
     {
         public override Stuffing CreateStuffing()
         {
-            throw new System.NotImplementedException();
+            return new GblStylePorkStuffing();
         }
 
         public override Flour CreateFlour()
         {
-            throw new System.NotImplementedException();
+            return new GblStyleFlour();
         }
     }
 }
