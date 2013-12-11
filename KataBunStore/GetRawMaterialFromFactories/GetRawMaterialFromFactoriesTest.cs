@@ -36,5 +36,14 @@ namespace GetRawMaterialFromFactories
                 , bun.GetStepDesc()
                 , "Failure - the step description was not 'Got mixed stuffing of Pork bun from GBL Ingredient Factory. Got flour from GBL Ingredient Factory. Prepared stuffing. Kneaded into dough in GBL style. Wrapped buns in GBL style. Steamed buns. Dished out buns.'");
         }
+
+        [Test]
+        public void TestOrderHbzStylePorkBun()
+        {
+            // Then
+            Assert.AreEqual("Got mixed stuffing of Pork bun from HBZ Ingredient Factory. Got flour from HBZ Ingredient Factory. Prepared stuffing. Kneaded into dough in HBZ style. Wrapped buns in HBZ style. Steamed buns. Dished out buns."
+                , bun.GetStepDesc()
+                , "Failure - the step description was not 'Got mixed stuffing of Pork bun from HBZ Ingredient Factory. Got flour from HBZ Ingredient Factory. Prepared stuffing. Kneaded into dough in HBZ style. Wrapped buns in HBZ style. Steamed buns. Dished out buns.'");
+        }
     }
 }
