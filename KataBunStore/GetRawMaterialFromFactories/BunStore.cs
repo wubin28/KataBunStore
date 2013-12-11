@@ -11,7 +11,9 @@
 
         public Bun OrderGblStyleBun(string bunName)
         {
-            return new GblStylePorkBun();
+            Cook gblStyleCook = new GblStyleCook();
+            Waiter waiter = new Waiter(gblStyleCook);
+            return waiter.DishOut(bunName);
         }
     }
 }
