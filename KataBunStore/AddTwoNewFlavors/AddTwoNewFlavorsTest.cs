@@ -25,6 +25,9 @@ namespace AddTwoNewFlavors
         [Test]
         public void TestOrderGblStylePorkBun()
         {
+            // Given
+            BunStore bunStore = new BunStore();
+
             // When
             Bun bun = bunStore.orderGblStyleBun("Pork");
 
