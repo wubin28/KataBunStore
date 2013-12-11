@@ -40,6 +40,9 @@ namespace AddTwoNewFlavors
         [Test]
         public void TestOrderHbzStylePorkBun()
         {
+            // Given
+            BunStore bunStore = new BunStore();
+
             // When
             Bun bun = bunStore.orderHbzStyleBun("Pork");
 
