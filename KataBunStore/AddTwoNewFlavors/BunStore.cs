@@ -11,7 +11,7 @@
 
         public Bun orderGblStyleBun(string bunName)
         {
-
+            Waiter waiter = new Waiter(gblStyleCook);
             return waiter.DishOut(bunName);
         }
     }
