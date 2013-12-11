@@ -55,6 +55,7 @@
     <Compile Include="BunStore.cs" />
     <Compile Include="Cook.cs" />
     <Compile Include="Flour.cs" />
+    <Compile Include="GblStyleCook.cs" />
     <Compile Include="GblStylePorkBun.cs" />
     <Compile Include="GetRawMaterialFromFactoriesTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
