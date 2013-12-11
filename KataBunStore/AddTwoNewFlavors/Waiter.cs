@@ -8,5 +8,11 @@
         {
             this.qfStyleCook = qfStyleCook;
         }
+
+        public Bun dishOut(string bunName)
+        {
+            qfStyleCook.MakeBun(bunName);
+
+        }
     }
 }
