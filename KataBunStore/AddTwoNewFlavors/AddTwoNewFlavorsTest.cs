@@ -10,6 +10,9 @@ namespace AddTwoNewFlavors
         [Test]
         public void TestOrderQfStyleGreenOnionAndPorkBun()
         {
+            // When
+            bun bun = bunStore.orderQfStyleBun("Green Onion and Pork");
+
             // Then
             Assert.AreEqual("Mixed stuffing of Green Onion and Pork bun in QF style. Kneaded into dough in QF style. Wrapped buns in QF style. Steamed buns. Dished out buns."
                 , bun.getStepDesc("Green Onion and Pork")
