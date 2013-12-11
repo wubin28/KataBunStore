@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System.ComponentModel;
+using System.IO;
 
 namespace GetRawMaterialFromFactories
 {
@@ -24,7 +25,7 @@ namespace GetRawMaterialFromFactories
 
         protected override void KneadIntoDough(Bun bun)
         {
-            throw new System.NotImplementedException();
+            bun.AppendStepDesc(" Kneaded into dough in GBL style.");
         }
 
         protected override void WrapBun(Bun bun)
