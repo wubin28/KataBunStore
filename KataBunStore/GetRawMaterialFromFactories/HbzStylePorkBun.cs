@@ -2,9 +2,12 @@
 {
     public class HbzStylePorkBun : Bun
     {
+        private BunIngredientFactory hbzIngredientFactory;
+
         public HbzStylePorkBun(BunIngredientFactory hbzIngredientFactory)
         {
-            throw new System.NotImplementedException();
+            this.hbzIngredientFactory = hbzIngredientFactory;
+
         }
 
         public override string GetStepDesc()
