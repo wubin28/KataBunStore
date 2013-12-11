@@ -1,6 +1,6 @@
 ﻿namespace AddTwoNewFlavors
 {
-    public class Cook
+    public abstract class Cook
     {
     }
 }
