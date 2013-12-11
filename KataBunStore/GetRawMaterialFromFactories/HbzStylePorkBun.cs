@@ -17,7 +17,7 @@
 
         public override string GetStepDesc()
         {
-            throw new System.NotImplementedException();
+            return stepDesc;
         }
     }
 }
