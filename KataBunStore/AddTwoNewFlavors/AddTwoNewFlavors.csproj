@@ -57,6 +57,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QfStyleCook.cs" />
     <Compile Include="QfStyleGreenOnionAndPorkBun.cs" />
+    <Compile Include="Waiter.cs" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
