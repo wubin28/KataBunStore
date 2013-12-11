@@ -61,6 +61,7 @@
     <Compile Include="QfIngredientFactory.cs" />
     <Compile Include="QfStyleCook.cs" />
     <Compile Include="QfStyleGreenOnionAndPorkBun.cs" />
+    <Compile Include="QfStyleGreenOnionAndPorkStuffing.cs" />
     <Compile Include="Stuffing.cs" />
     <Compile Include="Waiter.cs" />
   </ItemGroup>
