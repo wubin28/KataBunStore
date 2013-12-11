@@ -5,7 +5,7 @@ using NUnit.Framework;
 namespace GetRawMaterialFromFactories
 {
     [TestFixture]
-    public class UnitTest1
+    public class GetRawMaterialFromFactoriesTest
     {
         [Test]
         public void TestMethod1()
