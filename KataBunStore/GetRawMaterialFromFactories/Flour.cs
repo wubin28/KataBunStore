@@ -1,6 +1,6 @@
 ﻿namespace GetRawMaterialFromFactories
 {
-    public class Flour
+    public abstract class Flour
     {
     }
 }
