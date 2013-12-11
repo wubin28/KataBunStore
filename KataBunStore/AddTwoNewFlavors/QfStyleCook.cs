@@ -23,7 +23,7 @@ namespace AddTwoNewFlavors
 
         protected override void KneadIntoDough(Bun bun)
         {
-            throw new System.NotImplementedException();
+            bun.appendStepDesc(" Kneaded into dough in QF style.");
         }
 
         protected override void MixStuffing(Bun bun, string bunName)
