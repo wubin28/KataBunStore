@@ -6,6 +6,7 @@ namespace GetRawMaterialFromFactories
     {
         protected override Bun CreateBun(string bunName)
         {
+            BunIngredientFactory hbzIngredientFactory = new HbzIngredientFactory();
             if (bunName == "Pork")
             {
                 return new HbzStylePorkBun(hbzIngredientFactory);
