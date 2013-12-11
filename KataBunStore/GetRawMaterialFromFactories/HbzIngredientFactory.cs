@@ -4,12 +4,12 @@
     {
         public override Stuffing CreateStuffing()
         {
-            throw new System.NotImplementedException();
+            return new HbzStylePorkStuffing();
         }
 
         public override Flour CreateFlour()
         {
-            throw new System.NotImplementedException();
+            return new HbzStyleFlour();
         }
     }
 }
