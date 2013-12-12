@@ -2,16 +2,12 @@
 {
     public class GblStylePorkBun : Bun
     {
-        private BunIngredientFactory gblIngredientFactory;
-
         public GblStylePorkBun(BunIngredientFactory gblIngredientFactory)
         {
-            this.gblIngredientFactory = gblIngredientFactory;
-
-            Stuffing = this.gblIngredientFactory.CreateStuffing();
+            Stuffing = gblIngredientFactory.CreateStuffing();
             StepDesc += Stuffing.GetDesc();
 
-            Flour = this.gblIngredientFactory.CreateFlour();
+            Flour = gblIngredientFactory.CreateFlour();
             StepDesc += Flour.GetDesc();
         }
 

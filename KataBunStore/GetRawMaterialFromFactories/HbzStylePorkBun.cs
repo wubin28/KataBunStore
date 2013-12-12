@@ -2,12 +2,8 @@
 {
     public class HbzStylePorkBun : Bun
     {
-        private BunIngredientFactory hbzIngredientFactory;
-
         public HbzStylePorkBun(BunIngredientFactory hbzIngredientFactory)
         {
-            this.hbzIngredientFactory = hbzIngredientFactory;
-
             Stuffing = hbzIngredientFactory.CreateStuffing();
             StepDesc += Stuffing.GetDesc();
 

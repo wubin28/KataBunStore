@@ -2,16 +2,12 @@
 {
     public class QfStyleGreenOnionAndPorkBun : Bun
     {
-        private BunIngredientFactory bunIngredientFactory;
-
         public QfStyleGreenOnionAndPorkBun(BunIngredientFactory bunIngredientFactory)
         {
-            this.bunIngredientFactory = bunIngredientFactory;
-            
-            Stuffing = this.bunIngredientFactory.CreateStuffing();
+            Stuffing = bunIngredientFactory.CreateStuffing();
             StepDesc += Stuffing.GetDesc();
             
-            Flour = this.bunIngredientFactory.CreateFlour();
+            Flour = bunIngredientFactory.CreateFlour();
             StepDesc += Flour.GetDesc();
         }
 
