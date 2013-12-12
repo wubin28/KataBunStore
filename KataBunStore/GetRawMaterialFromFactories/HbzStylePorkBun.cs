@@ -9,15 +9,15 @@
             this.hbzIngredientFactory = hbzIngredientFactory;
 
             Stuffing = hbzIngredientFactory.CreateStuffing();
-            stepDesc += Stuffing.GetDesc();
+            StepDesc += Stuffing.GetDesc();
 
             Flour = hbzIngredientFactory.CreateFlour();
-            stepDesc += Flour.GetDesc();
+            StepDesc += Flour.GetDesc();
         }
 
         public override string GetStepDesc()
         {
-            return stepDesc;
+            return StepDesc;
         }
     }
 }

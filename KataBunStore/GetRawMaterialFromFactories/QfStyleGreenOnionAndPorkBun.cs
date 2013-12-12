@@ -9,15 +9,15 @@
             this.bunIngredientFactory = bunIngredientFactory;
             
             Stuffing = this.bunIngredientFactory.CreateStuffing();
-            stepDesc += Stuffing.GetDesc();
+            StepDesc += Stuffing.GetDesc();
             
             Flour = this.bunIngredientFactory.CreateFlour();
-            stepDesc += Flour.GetDesc();
+            StepDesc += Flour.GetDesc();
         }
 
         public override string GetStepDesc()
         {
-            return stepDesc;
+            return StepDesc;
         }
     }
 }

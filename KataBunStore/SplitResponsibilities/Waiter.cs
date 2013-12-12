@@ -10,17 +10,17 @@
         }
 
 
-        public Bun dishOut(string bunName)
+        public Bun DishOut(string bunName)
         {
-            Bun bun = cook.makeBun(bunName);
+            Bun bun = cook.MakeBun(bunName);
             steam(bun);
-            bun.appendStepDesc(" Dished out buns.");
+            bun.AppendStepDesc(" Dished out buns.");
             return bun;
         }
 
         private void steam(Bun bun)
         {
-            bun.appendStepDesc(" Steamed buns.");
+            bun.AppendStepDesc(" Steamed buns.");
         }
     }
 }

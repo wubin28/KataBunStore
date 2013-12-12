@@ -4,7 +4,7 @@ namespace SplitResponsibilities
 {
     public class Cook
     {
-        public Bun makeBun(string bunName)
+        public Bun MakeBun(string bunName)
         {
             Bun bun = null;
             if (bunName == "Green Onion and Pork")
@@ -44,17 +44,17 @@ namespace SplitResponsibilities
 
         private void wrapBun(Bun bun)
         {
-            bun.appendStepDesc(" Wrapped buns.");
+            bun.AppendStepDesc(" Wrapped buns.");
         }
 
         private void kneadIntoDough(Bun bun)
         {
-            bun.appendStepDesc(" Kneaded into dough.");
+            bun.AppendStepDesc(" Kneaded into dough.");
         }
 
         private void mixStuffing(Bun bun, string bunName)
         {
-            bun.appendStepDesc("Mixed stuffing of " + bunName + " bun.");
+            bun.AppendStepDesc("Mixed stuffing of " + bunName + " bun.");
         }
     }
 }

@@ -18,17 +18,17 @@ namespace AddTwoNewFlavors
 
         protected override void WrapBun(Bun bun)
         {
-            bun.appendStepDesc(" Wrapped buns in HBZ style.");
+            bun.AppendStepDesc(" Wrapped buns in HBZ style.");
         }
 
         protected override void KneadIntoDough(Bun bun)
         {
-            bun.appendStepDesc(" Kneaded into dough in HBZ style.");
+            bun.AppendStepDesc(" Kneaded into dough in HBZ style.");
         }
 
         protected override void MixStuffing(Bun bun, string bunName)
         {
-            bun.appendStepDesc("Mixed stuffing of " + bunName + " bun in HBZ style.");
+            bun.AppendStepDesc("Mixed stuffing of " + bunName + " bun in HBZ style.");
         }
     }
 }

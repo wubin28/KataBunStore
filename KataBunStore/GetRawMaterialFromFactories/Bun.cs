@@ -5,12 +5,12 @@
         protected Stuffing Stuffing;
         protected Flour Flour;
 
-        protected string stepDesc = "";
+        protected string StepDesc = "";
         public abstract string GetStepDesc();
 
         public void AppendStepDesc(string stepDesc)
         {
-            this.stepDesc += stepDesc;
+            this.StepDesc += stepDesc;
         }
     }
 }

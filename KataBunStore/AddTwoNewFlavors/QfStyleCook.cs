@@ -18,19 +18,19 @@ namespace AddTwoNewFlavors
 
         protected override void WrapBun(Bun bun)
         {
-            bun.appendStepDesc(" Wrapped buns in QF style.");
+            bun.AppendStepDesc(" Wrapped buns in QF style.");
         }
 
         protected override void KneadIntoDough(Bun bun)
         {
-            bun.appendStepDesc(" Kneaded into dough in QF style.");
+            bun.AppendStepDesc(" Kneaded into dough in QF style.");
         }
 
         protected override void MixStuffing(Bun bun, string bunName)
         {
             if (bunName == "Green Onion and Pork")
             {
-                bun.appendStepDesc("Mixed stuffing of " + bunName + " bun in QF style.");
+                bun.AppendStepDesc("Mixed stuffing of " + bunName + " bun in QF style.");
             }
         }
     }

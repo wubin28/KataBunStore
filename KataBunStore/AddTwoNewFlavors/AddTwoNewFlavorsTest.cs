@@ -14,11 +14,11 @@ namespace AddTwoNewFlavors
             BunStore bunStore = new BunStore();
 
             // When
-            Bun bun = bunStore.orderQfStyleBun("Green Onion and Pork");
+            Bun bun = bunStore.OrderQfStyleBun("Green Onion and Pork");
 
             // Then
             Assert.AreEqual("Mixed stuffing of Green Onion and Pork bun in QF style. Kneaded into dough in QF style. Wrapped buns in QF style. Steamed buns. Dished out buns."
-                , bun.getStepDesc()
+                , bun.GetStepDesc()
                 , "Failure - the output was not 'Mixed stuffing of Green Onion and Pork bun in QF style. Kneaded into dough in QF style. Wrapped buns in QF style. Steamed buns. Dished out buns.'");
         }
 
@@ -29,11 +29,11 @@ namespace AddTwoNewFlavors
             BunStore bunStore = new BunStore();
 
             // When
-            Bun bun = bunStore.orderGblStyleBun("Pork");
+            Bun bun = bunStore.OrderGblStyleBun("Pork");
 
             // Then
             Assert.AreEqual("Mixed stuffing of Pork bun in GBL style. Kneaded into dough in GBL style. Wrapped buns in GBL style. Steamed buns. Dished out buns."
-                , bun.getStepDesc()
+                , bun.GetStepDesc()
                 , "Failure - the output was not 'Mixed stuffing of Pork bun in GBL style. Kneaded into dough in GBL style. Wrapped buns in GBL style. Steamed buns. Dished out buns.'");
         }
 
@@ -44,11 +44,11 @@ namespace AddTwoNewFlavors
             BunStore bunStore = new BunStore();
 
             // When
-            Bun bun = bunStore.orderHbzStyleBun("Pork");
+            Bun bun = bunStore.OrderHbzStyleBun("Pork");
 
             // Then
             Assert.AreEqual("Mixed stuffing of Pork bun in HBZ style. Kneaded into dough in HBZ style. Wrapped buns in HBZ style. Steamed buns. Dished out buns."
-                , bun.getStepDesc()
+                , bun.GetStepDesc()
                 , "Failure - the output was not 'Mixed stuffing of Pork bun in HBZ style. Kneaded into dough in HBZ style. Wrapped buns in HBZ style. Steamed buns. Dished out buns.'");
         }
     }

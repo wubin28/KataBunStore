@@ -6,7 +6,7 @@
         {
             Cook cook = new Cook();
             Waiter waiter = new Waiter(cook);
-            return waiter.dishOut(bunName);
+            return waiter.DishOut(bunName);
 
         }
     }

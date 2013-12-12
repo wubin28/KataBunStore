@@ -4,7 +4,7 @@
     {
         private string stepDesc;
 
-        public string getStepDesc(string descType)
+        public string GetStepDesc(string descType)
         {
             if (descType == "QfStyleGreenOnionAndPork")
             {
@@ -18,12 +18,12 @@
             }
         }
 
-        public void appendStepDesc(string stepDesc)
+        public void AppendStepDesc(string desc)
         {
-            this.stepDesc += stepDesc;
+            this.stepDesc += desc;
         }
 
-        public string getStepDesc()
+        public string GetStepDesc()
         {
             return this.stepDesc;
         }

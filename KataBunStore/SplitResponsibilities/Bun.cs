@@ -14,12 +14,12 @@
         {
         }
 
-        public void appendStepDesc(string stepDesc)
+        public void AppendStepDesc(string stepDesc)
         {
             this.stepDesc += stepDesc;
         }
 
-        public string getStepDesc()
+        public string GetStepDesc()
         {
             return this.stepDesc;
         }

@@ -13,13 +13,13 @@
         {
             Bun bun = cook.MakeBun(bunName);
             steamBun(bun);
-            bun.appendStepDesc(" Dished out buns.");
+            bun.AppendStepDesc(" Dished out buns.");
             return bun;
         }
 
         private void steamBun(Bun bun)
         {
-            bun.appendStepDesc(" Steamed buns.");
+            bun.AppendStepDesc(" Steamed buns.");
         }
     }
 }
