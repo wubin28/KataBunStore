@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GetRawMaterialFromFactories.Bun" Collapsed="true">
+    <Position X="10.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAgAAAAAAAAAAAAAAIAAABgA=</HashCode>
+      <FileName>Bun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetRawMaterialFromFactories.BunIngredientFactory" Collapsed="true">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>BunIngredientFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetRawMaterialFromFactories.BunStore" Collapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAIABAAAAAAAAAAAAA=</HashCode>
+      <FileName>BunStore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetRawMaterialFromFactories.Cook" Collapsed="true">
+    <Position X="2.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgBAAAAACAAAgAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetRawMaterialFromFactories.Flour" Collapsed="true">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Flour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetRawMaterialFromFactories.GblIngredientFactory" Collapsed="true">
+    <Position X="8.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>GblIngredientFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetRawMaterialFromFactories.GblStyleCook" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgBAAAAAAAAAgAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GblStyleCook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetRawMaterialFromFactories.GblStyleFlour" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GblStyleFlour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetRawMaterialFromFactories.GblStylePorkBun" Collapsed="true">
+    <Position X="8.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>GblStylePorkBun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetRawMaterialFromFactories.GblStylePorkStuffing" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GblStylePorkStuffing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetRawMaterialFromFactories.GetRawMaterialFromFactoriesTest" Collapsed="true">
+    <Position X="17.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>GetRawMaterialFromFactoriesTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetRawMaterialFromFactories.HbzIngredientFactory" Collapsed="true">
+    <Position X="10.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>HbzIngredientFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetRawMaterialFromFactories.HbzStyleCook" Collapsed="true">
+    <Position X="2.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgBAAAAAAAAAgAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HbzStyleCook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetRawMaterialFromFactories.HbzStyleFlour" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HbzStyleFlour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetRawMaterialFromFactories.HbzStylePorkBun" Collapsed="true">
+    <Position X="10.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>HbzStylePorkBun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetRawMaterialFromFactories.HbzStylePorkStuffing" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HbzStylePorkStuffing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetRawMaterialFromFactories.QfIngredientFactory" Collapsed="true">
+    <Position X="13" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>QfIngredientFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetRawMaterialFromFactories.QfStyleCook" Collapsed="true">
+    <Position X="5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgBAAAAAAAAAgAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QfStyleCook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetRawMaterialFromFactories.QfStyleFlour" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QfStyleFlour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetRawMaterialFromFactories.QfStyleGreenOnionAndPorkBun" Collapsed="true">
+    <Position X="13" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgA=</HashCode>
+      <FileName>QfStyleGreenOnionAndPorkBun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetRawMaterialFromFactories.QfStyleGreenOnionAndPorkStuffing" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QfStyleGreenOnionAndPorkStuffing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetRawMaterialFromFactories.Stuffing" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Stuffing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetRawMaterialFromFactories.Waiter" Collapsed="true">
+    <Position X="15.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAIAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Waiter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei" Size="9" />
+</ClassDiagram>
