@@ -11,9 +11,5 @@
             StepDesc += Flour.GetDesc();
         }
 
-        public override string GetStepDesc()
-        {
-            return StepDesc;
-        }
     }
 }

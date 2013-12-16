@@ -19,9 +19,9 @@
             this.stepDesc += stepDesc;
         }
 
-        public string GetStepDesc()
+        public string StepDesc
         {
-            return this.stepDesc;
+            get { return this.stepDesc; }
         }
     }
 }
