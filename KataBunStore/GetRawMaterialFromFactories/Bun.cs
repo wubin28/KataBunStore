@@ -2,8 +2,8 @@
 {
     public abstract class Bun
     {
-        protected Stuffing Stuffing;
-        protected Flour Flour;
+        protected Stuffing Stuffing { get; set; }
+        protected Flour Flour { get; set; }
 
         protected string StepDesc = "";
         public abstract string GetStepDesc();
