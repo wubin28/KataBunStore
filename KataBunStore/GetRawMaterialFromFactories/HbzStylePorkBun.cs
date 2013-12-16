@@ -5,10 +5,10 @@
         public HbzStylePorkBun(BunIngredientFactory hbzIngredientFactory)
         {
             Stuffing = hbzIngredientFactory.CreateStuffing();
-            StepDesc += Stuffing.GetDesc();
+            StepDesc += Stuffing.Desc;
 
             Flour = hbzIngredientFactory.CreateFlour();
-            StepDesc += Flour.GetDesc();
+            StepDesc += Flour.Desc;
         }
 
     }

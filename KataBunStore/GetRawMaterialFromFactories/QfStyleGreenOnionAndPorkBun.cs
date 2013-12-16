@@ -5,10 +5,10 @@
         public QfStyleGreenOnionAndPorkBun(BunIngredientFactory bunIngredientFactory)
         {
             Stuffing = bunIngredientFactory.CreateStuffing();
-            StepDesc += Stuffing.GetDesc();
+            StepDesc += Stuffing.Desc;
             
             Flour = bunIngredientFactory.CreateFlour();
-            StepDesc += Flour.GetDesc();
+            StepDesc += Flour.Desc;
         }
 
     }

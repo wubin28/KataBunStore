@@ -6,9 +6,5 @@
         {
             Desc += " Got flour from GBL Ingredient Factory.";
         }
-        public override string GetDesc()
-        {
-            return Desc;
-        }
     }
 }

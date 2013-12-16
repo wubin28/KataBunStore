@@ -5,10 +5,10 @@
         public GblStylePorkBun(BunIngredientFactory gblIngredientFactory)
         {
             Stuffing = gblIngredientFactory.CreateStuffing();
-            StepDesc += Stuffing.GetDesc();
+            StepDesc += Stuffing.Desc;
 
             Flour = gblIngredientFactory.CreateFlour();
-            StepDesc += Flour.GetDesc();
+            StepDesc += Flour.Desc;
         }
 
     }
