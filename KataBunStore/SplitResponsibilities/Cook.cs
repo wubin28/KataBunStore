@@ -42,17 +42,17 @@ namespace SplitResponsibilities
             return bun;
         }
 
-        private void wrapBun(Bun bun)
+        private static void wrapBun(Bun bun)
         {
             bun.AppendStepDesc(" Wrapped buns.");
         }
 
-        private void kneadIntoDough(Bun bun)
+        private static void kneadIntoDough(Bun bun)
         {
             bun.AppendStepDesc(" Kneaded into dough.");
         }
 
-        private void mixStuffing(Bun bun, string bunName)
+        private static void mixStuffing(Bun bun, string bunName)
         {
             bun.AppendStepDesc("Mixed stuffing of " + bunName + " bun.");
         }

@@ -2,21 +2,21 @@
 {
     public class BunStore
     {
-        public Bun OrderQfStyleBun(string bunName)
+        public static Bun OrderQfStyleBun(string bunName)
         {
             Cook qfStyleCook = new QfStyleCook();
             Waiter waiter = new Waiter(qfStyleCook);
             return waiter.DishOut(bunName);
         }
 
-        public Bun OrderGblStyleBun(string bunName)
+        public static Bun OrderGblStyleBun(string bunName)
         {
             Cook gblStyleCook = new GblStyleCook();
             Waiter waiter = new Waiter(gblStyleCook);
             return waiter.DishOut(bunName);
         }
 
-        public Bun OrderHbzStyleBun(string bunName)
+        public static Bun OrderHbzStyleBun(string bunName)
         {
             Cook hbzStyleCook = new HbzStyleCook();
             Waiter waiter = new Waiter(hbzStyleCook);

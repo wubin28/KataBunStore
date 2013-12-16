@@ -2,7 +2,7 @@
 {
     public class BunStore
     {
-        public Bun orderBun(string bunName)
+        public static Bun orderBun(string bunName)
         {
             Cook cook = new Cook();
             Waiter waiter = new Waiter(cook);
