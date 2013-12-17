@@ -11,7 +11,7 @@ namespace SplitResponsibilities
         public void TestOrderGreenOnionAndPorkBun()
         {
             // When
-            Bun bun = BunStore.orderBun("Green Onion and Pork");
+            Bun bun = BunStore.OrderBun("Green Onion and Pork");
 
             // Then
             Assert.AreEqual(
@@ -24,7 +24,7 @@ namespace SplitResponsibilities
         public void TestOrderSamSunAndPorkBun()
         {
             // When
-            Bun bun = BunStore.orderBun("Sam Sun and Pork");
+            Bun bun = BunStore.OrderBun("Sam Sun and Pork");
 
             // Then
             Assert.AreEqual(
@@ -37,7 +37,7 @@ namespace SplitResponsibilities
         public void TestOrderSuSamSunBun()
         {
             // When
-            Bun bun = BunStore.orderBun("Su Sam Sun");
+            Bun bun = BunStore.OrderBun("Su Sam Sun");
 
             // Then
             Assert.AreEqual(
@@ -50,7 +50,7 @@ namespace SplitResponsibilities
         public void TestOrderShrimpBun()
         {
             // When
-            Bun bun = BunStore.orderBun("Shrimp");
+            Bun bun = BunStore.OrderBun("Shrimp");
 
             // Then
             Assert.AreEqual(

@@ -12,12 +12,12 @@
         public Bun DishOut(string bunName)
         {
             Bun bun = this.cook.MakeBun(bunName);
-            steamBun(bun);
+            SteamBun(bun);
             bun.AppendStepDesc(" Dished out buns.");
             return bun;
         }
 
-        private static void steamBun(Bun bun)
+        private static void SteamBun(Bun bun)
         {
             bun.AppendStepDesc(" Steamed buns.");
         }

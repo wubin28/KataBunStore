@@ -10,30 +10,30 @@ namespace SplitResponsibilities
             if (bunName == "Green Onion and Pork")
             {
                 bun = new GreenOnionAndPorkBun();
-                mixStuffing(bun, bunName);
-                kneadIntoDough(bun);
-                wrapBun(bun);
+                MixStuffing(bun, bunName);
+                KneadIntoDough(bun);
+                WrapBun(bun);
             }
             else if (bunName == "Sam Sun and Pork")
             {
                 bun = new SamSunAndPorkBun();
-                mixStuffing(bun, bunName);
-                kneadIntoDough(bun);
-                wrapBun(bun);
+                MixStuffing(bun, bunName);
+                KneadIntoDough(bun);
+                WrapBun(bun);
             }
             else if (bunName == "Su Sam Sun")
             {
                 bun = new SuSamSunBun();
-                mixStuffing(bun, bunName);
-                kneadIntoDough(bun);
-                wrapBun(bun);
+                MixStuffing(bun, bunName);
+                KneadIntoDough(bun);
+                WrapBun(bun);
             }
             else if (bunName == "Shrimp")
             {
                 bun = new ShrimpBun();
-                mixStuffing(bun, bunName);
-                kneadIntoDough(bun);
-                wrapBun(bun);
+                MixStuffing(bun, bunName);
+                KneadIntoDough(bun);
+                WrapBun(bun);
             }
             else
             {
@@ -42,17 +42,17 @@ namespace SplitResponsibilities
             return bun;
         }
 
-        private static void wrapBun(Bun bun)
+        private static void WrapBun(Bun bun)
         {
             bun.AppendStepDesc(" Wrapped buns.");
         }
 
-        private static void kneadIntoDough(Bun bun)
+        private static void KneadIntoDough(Bun bun)
         {
             bun.AppendStepDesc(" Kneaded into dough.");
         }
 
-        private static void mixStuffing(Bun bun, string bunName)
+        private static void MixStuffing(Bun bun, string bunName)
         {
             bun.AppendStepDesc("Mixed stuffing of " + bunName + " bun.");
         }

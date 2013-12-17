@@ -2,7 +2,7 @@
 {
     public class BunStore
     {
-        public static Bun orderBun(string bunName)
+        public static Bun OrderBun(string bunName)
         {
             return Waiter.DishOut(bunName);
 
