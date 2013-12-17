@@ -2,7 +2,7 @@
 
 namespace SplitResponsibilities
 {
-    public class Cook
+    public static class Cook
     {
         public static Bun MakeBun(string bunName)
         {

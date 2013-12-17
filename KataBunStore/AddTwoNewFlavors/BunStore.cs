@@ -1,6 +1,6 @@
 ﻿namespace AddTwoNewFlavors
 {
-    public class BunStore
+    public static class BunStore
     {
         public static Bun OrderQfStyleBun(string bunName)
         {

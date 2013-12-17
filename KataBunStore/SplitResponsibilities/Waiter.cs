@@ -1,12 +1,7 @@
 ﻿namespace SplitResponsibilities
 {
-    public class Waiter
+    public static class Waiter
     {
-        public Waiter()
-        {
-        }
-
-
         public static Bun DishOut(string bunName)
         {
             Bun bun = Cook.MakeBun(bunName);

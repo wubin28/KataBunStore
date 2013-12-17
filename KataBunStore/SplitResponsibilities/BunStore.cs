@@ -1,6 +1,6 @@
 ﻿namespace SplitResponsibilities
 {
-    public class BunStore
+    public static class BunStore
     {
         public static Bun OrderBun(string bunName)
         {
