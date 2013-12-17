@@ -1,4 +1,7 @@
-﻿namespace GetRawMaterialFromFactories
+﻿using System;
+
+[assembly: CLSCompliant(true)]
+namespace GetRawMaterialFromFactories
 {
     public abstract class Bun
     {

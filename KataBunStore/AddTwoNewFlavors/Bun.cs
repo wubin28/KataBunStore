@@ -1,4 +1,7 @@
-﻿namespace AddTwoNewFlavors
+﻿using System;
+
+[assembly: CLSCompliant(true)]
+namespace AddTwoNewFlavors
 {
     public class Bun
     {

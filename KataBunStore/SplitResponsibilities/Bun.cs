@@ -1,4 +1,7 @@
-﻿namespace SplitResponsibilities
+﻿using System;
+
+[assembly: CLSCompliant(true)]
+namespace SplitResponsibilities
 {
     public class Bun
     {
