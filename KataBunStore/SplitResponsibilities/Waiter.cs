@@ -7,7 +7,7 @@
         }
 
 
-        public Bun DishOut(string bunName)
+        public static Bun DishOut(string bunName)
         {
             Bun bun = Cook.MakeBun(bunName);
             steam(bun);
