@@ -4,8 +4,7 @@
     {
         public static Bun orderBun(string bunName)
         {
-            Cook cook = new Cook();
-            Waiter waiter = new Waiter(cook);
+            Waiter waiter = new Waiter();
             return waiter.DishOut(bunName);
 
         }

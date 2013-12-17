@@ -4,7 +4,7 @@ namespace SplitResponsibilities
 {
     public class Cook
     {
-        public Bun MakeBun(string bunName)
+        public static Bun MakeBun(string bunName)
         {
             Bun bun = null;
             if (bunName == "Green Onion and Pork")

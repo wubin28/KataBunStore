@@ -17,7 +17,7 @@
             return bun;
         }
 
-        private void steamBun(Bun bun)
+        private static void steamBun(Bun bun)
         {
             bun.AppendStepDesc(" Steamed buns.");
         }

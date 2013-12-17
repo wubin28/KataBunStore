@@ -2,23 +2,20 @@
 {
     public class Waiter
     {
-        private Cook cook;
-
-        public Waiter(Cook cook)
+        public Waiter()
         {
-            this.cook = cook;
         }
 
 
         public Bun DishOut(string bunName)
         {
-            Bun bun = cook.MakeBun(bunName);
+            Bun bun = Cook.MakeBun(bunName);
             steam(bun);
             bun.AppendStepDesc(" Dished out buns.");
             return bun;
         }
 
-        private void steam(Bun bun)
+        private static void steam(Bun bun)
         {
             bun.AppendStepDesc(" Steamed buns.");
         }
